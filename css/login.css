@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+#login_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 420px;
+    transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+    transform: translateY(-5px);
+}
+
+.login-header h2 {
+    margin: 0;
+    color: #2d3436;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.login-header p {
+    color: #636e72;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.login-form-group {
+    margin-bottom: 25px;
+}
+
+.login-form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #2d3436;
+    font-size: 0.9rem;
+}
+
+.login-form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f9f9f9;
+}
+
+.login-form-group input:focus {
+    border-color: #764ba2;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(118, 75, 162, 0.2);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(118, 75, 162, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background: linear-gradient(to right, #764ba2, #667eea);
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.4);
+}
+
+#login-error-msg {
+    color: #e74c3c;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    min-height: 20px;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        margin: 20px;
+        padding: 30px 20px;
+    }
+}
