@@ -1,9 +1,4 @@
-🛒 Aura Super City - POS System
-A modern, responsive Point of Sale (POS) web application designed for efficient retail management. This project is built as a Single Page Application (SPA) to provide a seamless user experience for managing customers, items, and orders.
 
-Oyaage Aura Super City POS system ekata galapena, professional මට්ටමේ README file එකක් මම හදලා දෙන්නම්. මේකේ ඔයා පාවිච්චි කරලා තියෙන Technologies (jQuery, Flatpickr, SPA concept) සහ System එකේ flow එක පැහැදිලිව ඇතුළත් කරලා තියෙනවා.
-
-මෙන්න මේ content එක copy කරලා ඔයාගේ README.md file එකට දාන්න:
 
 🛒 Aura Super City - POS System
 A modern, responsive Point of Sale (POS) web application designed for efficient retail management. This project is built as a Single Page Application (SPA) to provide a seamless user experience for managing customers, items, and orders.
